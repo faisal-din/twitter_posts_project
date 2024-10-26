@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+h1 {
+  color: maroon;
+}
+body {
+  background-color: #f4f4f4;
+  margin: 20px;
+}
+
+.posts {
+  margin-top: 20px;
+  padding: 15px;
+  background-color: bisque;
+}
+
+.username {
+  font-style: italic;
+}
+
+.post {
+  margin-top: 20px;
+  padding: 8px;
+  background-color: lightblue;
+  width: 150px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.new-post a {
+  color: darkslategray;
+}
+.post-btns {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.delete-btn {
+  background-color: lightseagreen;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 8px;
+  width: 150px;
+  cursor: pointer;
+}
